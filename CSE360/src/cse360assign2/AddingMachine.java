@@ -1,6 +1,6 @@
 package cse360assign2;
 /**
- * Public Class AddingMachine, a set of methods
+ * Public Class AddingMachine, a set of methods that when called either add or subtract to the total, return the total value, return the string verion of the expressions that are occuring. There is also a clear method that clears the variables
  * Date: 10/1/19
  * @author Jeffrey Ciferno
  * ASU Email: jmcifern@asu.edu
