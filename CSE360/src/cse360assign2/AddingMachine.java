@@ -6,15 +6,17 @@ package cse360assign2;
  * ASU Email: jmcifern@asu.edu.edu
  * ASU ID: 1217664240
  */
+
 public class AddingMachine {
 
 	private int total;
-	
+	private String tracker = "";
 	/**
 	 * Method AddingMachine constructor
 	 */
 	public AddingMachine () {
 		total = 0;  // not needed - included for clarity
+		tracker = tracker + "0";
 	}
 	/**
 	 * Method getTotal, Gets and returns the current state of int total
@@ -29,7 +31,8 @@ public class AddingMachine {
 	 * @param value
 	 */
 	public void add (int value) {
-	
+	total = total + value;
+	tracker = tracker + " + " + value;
 	}
 	
 	/**
@@ -37,7 +40,8 @@ public class AddingMachine {
 	 * @param value
 	 */
 	public void subtract (int value) {
-		
+		total = total - value;
+		tracker = tracker + " - " + value;
 	}
 	
 	/**
@@ -45,13 +49,15 @@ public class AddingMachine {
 	 * @return
 	 */
 	public String toString () {
-		return "";
+		return tracker;
 	}
 	
 	/**
 	 * Method clear, clears both the total and toString values.
 	 */
 	public void clear() {
-	
+	total = 0;
+	tracker = "";
+
 	}
 }
