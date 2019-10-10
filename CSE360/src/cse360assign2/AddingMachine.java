@@ -6,6 +6,7 @@ package cse360assign2;
  * ASU Email: jmcifern@asu.edu
  * ASU ID: 1217664240
  * Class Number: 70642
+ * Github link: https://github.com/jeffreyciferno/CSE360/tree/master/CSE360/src/cse360assign2
  */
 
 public class AddingMachine {
