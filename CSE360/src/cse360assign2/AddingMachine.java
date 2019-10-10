@@ -3,8 +3,9 @@ package cse360assign2;
  * Public Class AddingMachine, a set of methods
  * Date: 10/1/19
  * @author Jeffrey Ciferno
- * ASU Email: jmcifern@asu.edu.edu
+ * ASU Email: jmcifern@asu.edu
  * ASU ID: 1217664240
+ * Class Number: 70642
  */
 
 public class AddingMachine {
@@ -46,7 +47,7 @@ public class AddingMachine {
 	
 	/**
 	 * Method toString, adds the string from each method then returns the complete string back to toString
-	 * @return
+	 * @return tracker
 	 */
 	public String toString () {
 		return tracker;
